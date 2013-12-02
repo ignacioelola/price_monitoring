@@ -5,12 +5,9 @@ import csv
 import sys
 import time 
 
-
-
 #login details
 my_username = username
 my_password = password
-
 
 
 #Login into import.io
@@ -31,18 +28,12 @@ else:
     sys.exit()
 
 
-
-
-
 #details for data extraction:
 extractor_guid="e8a55ca5-4dd4-4710-8fe4-6a641d2138f3"
 urls=["http://www.amazon.com/Google-Nexus-Tablet-7-Inch-Black/dp/B00DVFLJKQ",
 	"http://www.amazon.com/Google-Nexus-10-Wi-Fi-only/dp/B00ACVI202",
 	"http://www.amazon.com/Apple-MD786LL-Wi-Fi-NEWEST-VERSION/dp/B00G2X1VIY",
 	"http://www.amazon.com/Apple-iPad-MD532LL-Wi-Fi-White/dp/B00746WCEA"]
-
-
-
 
 
 #Function to query an extractor an get the results back
@@ -110,7 +101,6 @@ for url in urls:
 		except:
 			row.append("")
 		all_rows.append(row)
-
 
 
 #saving results:
