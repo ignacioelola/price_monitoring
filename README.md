@@ -12,9 +12,9 @@ in you command line / terminal.
 
 You only need python installed (http://www.python.org/) and the next dependancies:
 - Requests library (http://www.python-requests.org/en/latest/)
-- 
+ 
 
-----------------------
+--
 
 Note: If you are more technical, I recommend you to try import.io client libraries, using the CometD API: https://github.com/import-io/importio-client-libs
 
